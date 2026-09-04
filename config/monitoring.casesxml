@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdImportExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Timestamp="2026-09-04T18:58:48.5977119Z" Hash="218E838CC0BE1C07CE0BA303D239939EA3096F6DF3BFF197787A43A9AD9E7AFC21EC5B6083766AB2ACBC0D4FFB9867F149A7EC66F53625E7C36E732A5173A900">
+  <FileInfo>
+    <ContentId>Scanner CaseTable Export</ContentId>
+    <ContentVersion>6.0</ContentVersion>
+    <Company>SICK AG</Company>
+    <CreationToolName>SAFETY DESIGNER ENGINEERING TOOL</CreationToolName>
+    <CreationToolVersion>2026.01</CreationToolVersion>
+    <CreationComponentName>microScan3</CreationComponentName>
+    <CreationComponentVersion>1.21.25484.0</CreationComponentVersion>
+  </FileInfo>
+  <Configuration>
+    <Name>Monitoring case table 1</Name>
+    <StaticInputSource>
+      <Source>Assembly_EIPCORERX_100_with_StopAlarmDetection</Source>
+      <StaticActivation>OneOfN</StaticActivation>
+    </StaticInputSource>
+    <StaticInputs1ofN>
+      <StaticInput1ofN>
+        <Ranking>1</Ranking>
+        <StaticInputsMatch>Match0</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>1</Ranking>
+        <StaticInputsMatch>Match1</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>2</Ranking>
+        <StaticInputsMatch>Match0</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>2</Ranking>
+        <StaticInputsMatch>Match1</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>3</Ranking>
+        <StaticInputsMatch>Match0</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>3</Ranking>
+        <StaticInputsMatch>Match1</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>4</Ranking>
+        <StaticInputsMatch>Match0</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+      <StaticInput1ofN>
+        <Ranking>4</Ranking>
+        <StaticInputsMatch>Match1</StaticInputsMatch>
+        <Available>true</Available>
+      </StaticInput1ofN>
+    </StaticInputs1ofN>
+    <UseSpeed>false</UseSpeed>
+    <InputDelay>12</InputDelay>
+    <CaseSequenceEnabled>false</CaseSequenceEnabled>
+    <ShowPermanentPreset>false</ShowPermanentPreset>
+  </Configuration>
+  <Cases>
+    <Case Id="1">
+      <Name>with pack or not</Name>
+      <SleepMode>false</SleepMode>
+      <DisplayOrder>0</DisplayOrder>
+      <Activation>
+        <StaticInputs1ofNIndex>0</StaticInputs1ofNIndex>
+        <SpeedActivation>Off</SpeedActivation>
+        <MinSpeed>0</MinSpeed>
+        <MaxSpeed>0</MaxSpeed>
+        <CaseNumber>1</CaseNumber>
+        <FollowingCases>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+        </FollowingCases>
+        <SingleStepSequencePos>-1</SingleStepSequencePos>
+      </Activation>
+    </Case>
+    <Case Id="2">
+      <Name>without pack</Name>
+      <SleepMode>false</SleepMode>
+      <DisplayOrder>1</DisplayOrder>
+      <Activation>
+        <StaticInputs1ofNIndex>2</StaticInputs1ofNIndex>
+        <SpeedActivation>Off</SpeedActivation>
+        <MinSpeed>0</MinSpeed>
+        <MaxSpeed>0</MaxSpeed>
+        <CaseNumber>2</CaseNumber>
+        <FollowingCases>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+        </FollowingCases>
+        <SingleStepSequencePos>-1</SingleStepSequencePos>
+      </Activation>
+    </Case>
+    <Case Id="3">
+      <Name>with pack</Name>
+      <SleepMode>false</SleepMode>
+      <DisplayOrder>2</DisplayOrder>
+      <Activation>
+        <StaticInputs1ofNIndex>4</StaticInputs1ofNIndex>
+        <SpeedActivation>Off</SpeedActivation>
+        <MinSpeed>0</MinSpeed>
+        <MaxSpeed>0</MaxSpeed>
+        <CaseNumber>3</CaseNumber>
+        <FollowingCases>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+        </FollowingCases>
+        <SingleStepSequencePos>-1</SingleStepSequencePos>
+      </Activation>
+    </Case>
+    <Case Id="0">
+      <Name>空车</Name>
+      <NameLatin9Key>_MCN0000_C91F</NameLatin9Key>
+      <SleepMode>false</SleepMode>
+      <DisplayOrder>3</DisplayOrder>
+      <Activation>
+        <StaticInputs1ofNIndex>6</StaticInputs1ofNIndex>
+        <SpeedActivation>Off</SpeedActivation>
+        <MinSpeed>0</MinSpeed>
+        <MaxSpeed>0</MaxSpeed>
+        <CaseNumber>4</CaseNumber>
+        <FollowingCases>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+          <FollowingCase>
+            <CaseIndex>-1</CaseIndex>
+          </FollowingCase>
+        </FollowingCases>
+        <SingleStepSequencePos>-1</SingleStepSequencePos>
+      </Activation>
+    </Case>
+  </Cases>
+  <Evals>
+    <Eval Id="1">
+      <Name>关断路径 1</Name>
+      <NameLatin9Key>_COPN01_1C7F</NameLatin9Key>
+      <Q>1</Q>
+      <Reset>
+        <ResetType>NoReset</ResetType>
+        <AutoResetTime>2</AutoResetTime>
+        <EvalResetSource>Assembly_EIPCORERX_100_with_StopAlarmDetection</EvalResetSource>
+      </Reset>
+      <Cases>
+        <Case Id="0">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>4</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="1">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>4</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="2">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>4</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="3">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>4</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+      </Cases>
+      <PermanentPreset>
+        <ScanPlanes>
+          <ScanPlane Id="1">
+            <FieldMode>7</FieldMode>
+          </ScanPlane>
+        </ScanPlanes>
+      </PermanentPreset>
+    </Eval>
+    <Eval Id="2">
+      <Name>关断路径 2</Name>
+      <NameLatin9Key>_COPN02_1D3F</NameLatin9Key>
+      <Q>2</Q>
+      <Reset>
+        <ResetType>NoReset</ResetType>
+        <AutoResetTime>2</AutoResetTime>
+        <EvalResetSource>Assembly_EIPCORERX_100_with_StopAlarmDetection</EvalResetSource>
+      </Reset>
+      <Cases>
+        <Case Id="0">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>5</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="1">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>3</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="2">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>3</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="3">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>3</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+      </Cases>
+      <PermanentPreset>
+        <ScanPlanes>
+          <ScanPlane Id="1">
+            <FieldMode>7</FieldMode>
+          </ScanPlane>
+        </ScanPlanes>
+      </PermanentPreset>
+    </Eval>
+    <Eval Id="3">
+      <Name>关断路径 3</Name>
+      <NameLatin9Key>_COPN03_DDFE</NameLatin9Key>
+      <Q>3</Q>
+      <Reset>
+        <ResetType>NoReset</ResetType>
+        <AutoResetTime>2</AutoResetTime>
+        <EvalResetSource>Assembly_EIPCORERX_100_with_StopAlarmDetection</EvalResetSource>
+      </Reset>
+      <Cases>
+        <Case Id="0">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>1</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="1">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>2</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="2">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>2</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="3">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>2</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+      </Cases>
+      <PermanentPreset>
+        <ScanPlanes>
+          <ScanPlane Id="1">
+            <FieldMode>7</FieldMode>
+          </ScanPlane>
+        </ScanPlanes>
+      </PermanentPreset>
+    </Eval>
+    <Eval Id="4">
+      <Name>关断路径 4</Name>
+      <NameLatin9Key>_COPN04_1FBF</NameLatin9Key>
+      <Q>4</Q>
+      <Reset>
+        <ResetType>NoReset</ResetType>
+        <AutoResetTime>2</AutoResetTime>
+        <EvalResetSource>Assembly_EIPCORERX_100_with_StopAlarmDetection</EvalResetSource>
+      </Reset>
+      <Cases>
+        <Case Id="0">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>6</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="1">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>8</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="2">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>5</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+        <Case Id="3">
+          <ScanPlanes>
+            <ScanPlane Id="1">
+              <UserFieldId>6</UserFieldId>
+              <IsSplitted>false</IsSplitted>
+            </ScanPlane>
+          </ScanPlanes>
+        </Case>
+      </Cases>
+      <PermanentPreset>
+        <ScanPlanes>
+          <ScanPlane Id="1">
+            <FieldMode>7</FieldMode>
+          </ScanPlane>
+        </ScanPlanes>
+      </PermanentPreset>
+    </Eval>
+  </Evals>
+  <FieldsConfiguration>
+    <ScanPlanes>
+      <ScanPlane Id="1">
+        <Index>0</Index>
+        <Name>Monitoring plane 1</Name>
+        <UserFieldsets>
+          <UserFieldset Id="1">
+            <Index>0</Index>
+            <Name>Not an Ecart</Name>
+            <UserFields>
+              <UserField Id="1">
+                <Index>0</Index>
+                <Name>Not an Ecart</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+          <UserFieldset Id="2">
+            <Index>1</Index>
+            <Name>Pallet</Name>
+            <UserFields>
+              <UserField Id="2">
+                <Index>0</Index>
+                <Name>Pallet</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+          <UserFieldset Id="3">
+            <Index>2</Index>
+            <Name>Ecart</Name>
+            <UserFields>
+              <UserField Id="3">
+                <Index>0</Index>
+                <Name>Ecart</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+          <UserFieldset Id="4">
+            <Index>3</Index>
+            <Name>Ecart always safe</Name>
+            <UserFields>
+              <UserField Id="4">
+                <Index>0</Index>
+                <Name>Ecart always safe</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+          <UserFieldset Id="5">
+            <Index>4</Index>
+            <Name>Pack</Name>
+            <UserFields>
+              <UserField Id="5">
+                <Index>0</Index>
+                <Name>Pack</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+          <UserFieldset Id="6">
+            <Index>5</Index>
+            <Name>tail</Name>
+            <UserFields>
+              <UserField Id="6">
+                <Index>0</Index>
+                <Name>tail</Name>
+                <FieldType>ProtectiveSafeBlanking</FieldType>
+                <MultipleSampling>2</MultipleSampling>
+                <ObjectResolution>30</ObjectResolution>
+                <ContourNegative>0</ContourNegative>
+                <ContourPositive>0</ContourPositive>
+              </UserField>
+            </UserFields>
+          </UserFieldset>
+        </UserFieldsets>
+      </ScanPlane>
+    </ScanPlanes>
+    <StatFields>
+      <PermRed Id="7" />
+      <PermGreen Id="8" />
+      <PermGreenWf Id="9" />
+    </StatFields>
+  </FieldsConfiguration>
+</SdImportExport>

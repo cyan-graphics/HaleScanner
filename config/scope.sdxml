@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdImportExport Timestamp="2026-09-04T19:13:12.5232527Z" Commentary="" Hash="48491D5A44FA104495B830B710E861322DAF609E213EFB801A3E1CD65AA226AFB093D75AA85047A604AA381C23B067B58F62A8335DBFB08EAC59F1A3C9D3E5C5">
+  <FileInfo>
+    <ContentId>Scanner Field Export</ContentId>
+    <ContentVersion>1.2</ContentVersion>
+    <Company>SICK AG</Company>
+    <CreationToolName>SAFETY DESIGNER ENGINEERING TOOL</CreationToolName>
+    <CreationToolVersion>2026.01</CreationToolVersion>
+    <CreationComponentName>microScan3</CreationComponentName>
+    <CreationComponentVersion>1.21.25484.0</CreationComponentVersion>
+  </FileInfo>
+  <Devices>
+    <Device Typekey="MICS3-ABAZ55IZ1" TypekeyVersion="1.5" TypekeyDisplayVersion="V 1.5.0" PositionX="0" PositionY="0" Rotation="0" StandingUpsideDown="false" />
+  </Devices>
+  <GlobalGeometry UseGlobalGeometry="false" />
+  <Fieldsets>
+    <Fieldset Name="Not an Ecart">
+      <Field Name="Not an Ecart" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Polygon Type="Field">
+          <Point X="2" Y="17" />
+          <Point X="1151" Y="262" />
+          <Point X="1179" Y="1873" />
+          <Point X="960" Y="2028" />
+          <Point X="764" Y="2108" />
+          <Point X="651" Y="2137" />
+          <Point X="-94" Y="2255" />
+          <Point X="-759" Y="2095" />
+          <Point X="-731" Y="47" />
+        </Polygon>
+      </Field>
+    </Fieldset>
+    <Fieldset Name="Pallet">
+      <Field Name="Pallet" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Rectangle Type="Field" OriginX="-32" OriginY="1285" Height="268" Width="84" Rotation="0" />
+      </Field>
+    </Fieldset>
+    <Fieldset Name="Ecart">
+      <Field Name="Ecart" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Rectangle Type="Field" OriginX="-560" OriginY="1271" Height="224" Width="77" Rotation="0" />
+      </Field>
+    </Fieldset>
+    <Fieldset Name="Ecart always safe">
+      <Field Name="Ecart always safe" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Polygon Type="Field">
+          <Point X="1175" Y="1858" />
+          <Point X="757" Y="2044" />
+          <Point X="281" Y="713" />
+          <Point X="43" Y="702" />
+          <Point X="-164" Y="685" />
+          <Point X="-286" Y="813" />
+          <Point X="-396" Y="910" />
+          <Point X="-610" Y="910" />
+          <Point X="-736" Y="910" />
+          <Point X="-731" Y="55" />
+          <Point X="-368" Y="42" />
+          <Point X="-80" Y="34" />
+          <Point X="1144" Y="276" />
+        </Polygon>
+      </Field>
+    </Fieldset>
+    <Fieldset Name="Pack">
+      <Field Name="Pack" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Rectangle Type="Field" OriginX="331" OriginY="1435" Height="82" Width="73" Rotation="0" />
+      </Field>
+    </Fieldset>
+    <Fieldset Name="tail">
+      <Field Name="tail" Fieldtype="ProtectiveSafeBlanking" MultipleSampling="2" Resolution="30" TolerancePositive="0" ToleranceNegative="0">
+        <Rectangle Type="Field" OriginX="-378" OriginY="1294" Height="115" Width="50" Rotation="0" />
+      </Field>
+    </Fieldset>
+  </Fieldsets>
+</SdImportExport>

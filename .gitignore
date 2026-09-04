@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+sick_raw_*.bin
+sick_points_*.csv
+sick_pointcloud_*.png
+sick_pointcloud_*.ply
+!.gitkeep
